@@ -5,7 +5,7 @@ window:
   max_fps: 60
 
 project:
-  name: TowerDefence2 # project dirname
+  name: TowerDefence # project dirname
   sources: src # source code directory
   maps: maps # maps directory
   logs: logs # logs directory

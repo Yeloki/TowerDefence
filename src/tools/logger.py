@@ -1,3 +1,4 @@
+import os
 import logging
 import logging.config
 from .common import get_base_path, generate_uid
@@ -29,6 +30,7 @@ LOG_CONFIG = {
 
     },
 }
+os.makedirs(get_base_path() / SETTINGS['project']['logs'], exist_ok=True)
 logging.captureWarnings(True)
 logging.config.dictConfig(LOG_CONFIG)
 logger = logging.getLogger('default')

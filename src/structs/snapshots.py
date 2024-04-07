@@ -9,7 +9,7 @@ enemies stats (hp)
 particles (explosions -> projectiles)
 GUI (bottom plate -> widgets)
 """
-from base import Vector2
+from src.base import Vector2
 from typing import List
 
 

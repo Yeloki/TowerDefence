@@ -43,7 +43,7 @@ def get_base_path() -> Path:
                 return path
         pwd = pwd.parent
     raise RuntimeError(f'Cannot find {project_name} directory,\n'
-                       'rename directory or change config.yaml file'
+                       'rename directory or change config.yaml file\n'
                        'and try again')
 
 
